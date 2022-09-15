@@ -1,13 +1,13 @@
 .tos {
+    align-items: center;
+    background-color: #eae8e4;
+    color: #28400c;
+    display: flex;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 14.72px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 40px;
-    background-color: #eae8e4;
-    color: #28400c;
+    justify-content: center;
   }
 
   .tos__text-link {

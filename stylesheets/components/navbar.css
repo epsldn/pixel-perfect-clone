@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 70px;
 }
 
 .navbar svg {
@@ -13,6 +14,56 @@
   fill: #0f3806;
 }
 
-.navbar__topright {
+.navbar__top-right {
+  display: flex;
   height: 70px;
+  align-items: center;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.navbar__top-right__links {
+  width: 457.6px;
+  display: inline-flex;
+}
+
+.navbar__top-right__signup {
+  display: inline-flex;
+}
+
+.link-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.link-container li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 2px;
+  border-bottom: 2px solid #f3f2ef;
+  transition: border-bottom .5s ease;
+}
+.link-container li:hover {
+  box-sizing: border-box;
+  border-bottom: 2px solid #00c585;
+}
+.signup-button-container {
+  display: inline-flex;
+  align-items: center;
+  width: 111.58px;
+  justify-content: end;
+  height: 56px;
+}
+
+.signup-button {
+  color: white;
+  font-size: 17px;
+  border: 1px solid #00c585;
+  border-radius: 24px;
+  padding: 6px 16px 8px;
+  background-color: #00c585;
 }
