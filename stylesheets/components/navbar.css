@@ -1,8 +1,12 @@
+header {
+  background-color: #f3f2ef;
+  position: sticky;
+  top: 0%;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
-  position: sticky;
-  top: 0%;
 }
 
 .navbar svg {

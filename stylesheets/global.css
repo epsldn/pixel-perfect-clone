@@ -8,7 +8,6 @@ body {
 header,
 footer,
 main {
-  position: relative;
   margin: auto;
   max-width: 1280px;
   padding: 0 40px;
