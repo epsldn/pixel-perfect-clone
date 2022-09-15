@@ -1,0 +1,29 @@
+.tagline {
+  align-items: center;
+  color: #28400c;
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.tagline > h1 {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -1.44px;
+  line-height: 78px;
+  padding: 11px;
+}
+
+.tagline > p {
+  line-height: 34px;
+  font-size: 28px;
+  font-weight: 500;
+  max-width: 550px;
+}
+
+.test {
+  height: 1000px;
+}
