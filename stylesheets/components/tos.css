@@ -1,0 +1,15 @@
+.tos {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14.72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #eae8e4;
+    color: #28400c;
+  }
+
+  .tos__text-link {
+    text-decoration: #c2c2c2 underline;
+  }
