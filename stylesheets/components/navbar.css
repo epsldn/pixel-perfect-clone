@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar svg {
+  height: fit-content;
+  width: 120px;
+}
+
+.logo-hipcamp-green_svg__st0 {
+  fill: #0f3806;
+}
+
+.navbar__topright {
+  height: 70px;
+}
