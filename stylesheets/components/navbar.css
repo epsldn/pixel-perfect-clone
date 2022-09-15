@@ -1,7 +1,5 @@
 .navbar {
-  align-items: center;
   display: flex;
-  height: 70px;
   justify-content: space-between;
 }
 
