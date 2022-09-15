@@ -1,6 +1,8 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0%;
 }
 
 .navbar svg {
@@ -8,6 +10,10 @@
   width: 154px;
 }
 
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
 .logo-hipcamp-green_svg__st0 {
   fill: #0f3806;
 }
