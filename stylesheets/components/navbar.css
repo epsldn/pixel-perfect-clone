@@ -1,8 +1,8 @@
 .navbar {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
   height: 70px;
+  justify-content: space-between;
 }
 
 .navbar svg {
@@ -15,16 +15,16 @@
 }
 
 .navbar__top-right {
-  display: flex;
-  height: 70px;
   align-items: center;
+  display: flex;
   font-size: 18px;
+  height: 70px;
   line-height: 24px;
 }
 
 .navbar__top-right__links {
-  width: 457.6px;
   display: inline-flex;
+  width: 457.6px;
 }
 
 .navbar__top-right__signup {
@@ -33,37 +33,44 @@
 
 .link-container {
   display: flex;
-  width: 100%;
-  justify-content: space-around;
   flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .link-container li {
+  border-bottom: 2px solid #f3f2ef;
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
-  line-height: 24px;
   font-weight: 400;
+  line-height: 24px;
   margin-top: 2px;
-  border-bottom: 2px solid #f3f2ef;
-  transition: border-bottom .5s ease;
+  transition: border-bottom 0.5s ease;
 }
 .link-container li:hover {
-  box-sizing: border-box;
   border-bottom: 2px solid #00c585;
+  box-sizing: border-box;
 }
 .signup-button-container {
-  display: inline-flex;
   align-items: center;
-  width: 111.58px;
-  justify-content: end;
+  display: inline-flex;
   height: 56px;
+  justify-content: end;
+  width: 111.58px;
 }
 
 .signup-button {
-  color: white;
-  font-size: 17px;
   border: 1px solid #00c585;
-  border-radius: 24px;
-  padding: 6px 16px 8px;
   background-color: #00c585;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 6px 16px 8px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.signup-button:hover {
+  background-color: #f3f2ef;
+  color: #00c585;
 }
