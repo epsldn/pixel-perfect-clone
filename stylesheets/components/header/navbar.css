@@ -1,13 +1,13 @@
 header {
   background-color: #f3f2ef;
   position: sticky;
-  z-index: 2;
   top: 0%;
+  z-index: 2;
 }
 
 .navbar {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -17,8 +17,8 @@ header {
 }
 
 .navbar__logo {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .logo-hipcamp-green_svg__st0 {
   fill: #0f3806;

@@ -34,10 +34,6 @@
   padding: 0 4%;
 }
 
-.button-sections {
-  height: fit-content;
-}
-
 .button-title {
   height: 24px;
   font-size: 12px;
@@ -60,6 +56,7 @@
   font-size: 16px;
   border: 1px solid #e5eadf;
   direction: column;
+  transition: transition 0.1s 1s;
 }
 
 .booking-button:focus-within {
@@ -81,9 +78,16 @@
   background-color: #00c585;
   border: 1px solid #00c585;
   border-radius: 50%;
-  height: 47px;
-  width: 47px;
+  height: 48px;
+  width: 48px;
   transition: background-color 0.2s ease, color 0.2s ease;
+  margin-left: 12%;
+}
+
+#drop-down{
+  position: absolute;
+  right: 12%;
+  width: fit-content;
 }
 
 .search-button:hover {
@@ -91,11 +95,13 @@
   color: #00c585;
   cursor: pointer;
 }
+
 .location {
   width: 41%;
 }
 
 .text-field {
+  height: 100%;
   align-self: center;
   width: 100%;
 }
@@ -105,17 +111,13 @@
 }
 
 .guests {
+  position: relative;
   width: 24%;
 }
 
 .booking-button .fa-solid {
   width: 25px;
   color: black;
-}
-
-.third-button {
-  display: flex;
-  justify-content: space-between;
 }
 
 .fa-solid {
