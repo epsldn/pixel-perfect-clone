@@ -37,6 +37,7 @@
 .button-sections {
   height: fit-content;
 }
+
 .button-title {
   height: 24px;
   font-size: 12px;
@@ -59,6 +60,10 @@
   font-size: 16px;
   border: 1px solid #e5eadf;
   direction: column;
+}
+
+.booking-button:active {
+  box-shadow: #eae8e4 0px 2px 3px;
 }
 
 .button-section-search {
@@ -94,12 +99,15 @@
   align-self: center;
   width: 100%;
 }
+
 .dates {
   width: 35%;
 }
+
 .guests {
   width: 24%;
 }
+
 .booking-button .fa-solid {
   width: 25px;
   color: black;
