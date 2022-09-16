@@ -12,3 +12,7 @@ main {
   max-width: 1280px;
   padding: 0 24px;
 }
+
+button {
+  cursor: pointer;
+}
