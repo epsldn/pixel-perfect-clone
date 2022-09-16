@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ff4b97d54.js" crossorigin="anonymous"></script>
     <title>Hipcamp | Outdoor Stays: Tent Camping, RV Parks, Cabins & Glamping</title>
 </head>
 <body>
@@ -68,21 +69,26 @@
                 <img class="booking-section__image" src="./images/homepage-us_ulfcxm.webp">
             </div>
             <div class="booking-buttons-container">
-                <div class="individual-button-container">
-                    <div class="button-title">
-                        <p class="button-title">Where to?</p>
-                        <button class="booking-button">Try Yosemite, Napa, Moab...</button>
+                <div class="button-sections location">
+                    <p class="button-title">Where to?</p>
+                    <div class="booking-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Try Yosemite, Napa, Moab..." class="text-field">
                     </div>
                 </div>
-                <div class="individual-button-container">
-                        <p class="button-title">Dates</p>
-                        <button class="booking-button">Enter Dates</button>
+                <div class="button-sections dates">
+                    <p class="button-title">Dates</p>
+                    <button class="booking-button"><i class="fa-solid fa-calendar"></i>Enter Dates</button>
                 </div>
-                <div class="individual-button-container">
-                    <div class="button-title">
-                        <p class="button-title">Guests</p>
-                        <button class="booking-button">Add guests</button>
+                <div class="button-sections guests">
+                    <p class="button-title">Guests</p>
+                    <div class="booking-button third-button">
+                        <button ><i class="fa-solid fa-user"></i>Add guests</button>
+                        <i class="fa-solid fa-chevron-down drop-down"></i>
                     </div>
+                </div>
+                <div class="button-section-search">
+                    <a href="index.html"><button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button></a> 
                 </div>
             </div>
         </div>

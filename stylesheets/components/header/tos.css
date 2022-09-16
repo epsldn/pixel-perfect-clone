@@ -5,11 +5,11 @@
     display: flex;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: bold;
-    font-size: 14.72px;
+    font-size: 11.72px;
     height: 40px;
     justify-content: center;
   }
 
   .tos__text-link {
-    text-decoration: #c2c2c2 underline;
+    border-bottom: 1px solid #c2c2c2;
   }

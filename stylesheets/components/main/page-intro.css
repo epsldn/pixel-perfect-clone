@@ -7,9 +7,8 @@
 
 .booking-section__image-container {
   align-self: center;
-  height: 486px;
+  height: 83%;
   width: 100%;
-  /* background-image: url(/images/homepage-us_ulfcxm.webp); */
 }
 
 .booking-section__image-container > img {
@@ -17,7 +16,7 @@
   width: 100%;
   object-fit: cover;
   object-position: top;
-  border-radius: 30px;
+  border-radius: 23px;
 }
 
 .booking-buttons-container {
@@ -27,20 +26,90 @@
   background-color: #f3f2ef;
   opacity: 0.995;
   border-radius: 110px;
-  border: 2px solid #e5eadf;
+  border: 1px solid #e5eadf;
   justify-content: space-around;
   align-items: center;
-  flex-direction: row;
   position: absolute;
-  width: 93%;
+  width: 95%;
+  padding: 0 4%;
 }
 
+.button-sections {
+  height: fit-content;
+}
 .button-title {
   height: 24px;
+  font-size: 12px;
   padding-bottom: 8px;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  font-weight: 500;
 }
-button {
-    display: block;
-  background-color: red;
+
+.booking-button {
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  color: #818181;
+  background-color: white;
+  height: 48px;
+  width: 95%;
+  border-radius: 100px;
+  padding: 0 12px;
+  font-size: 16px;
+  border: 1px solid #e5eadf;
+  direction: column;
+}
+
+.button-section-search {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 72px;
+  width: 47px;
+  border-radius: 50%;
+}
+
+.search-button {
+  color: white;
+  text-align: center;
+  background-color: #00c585;
+  border: 1px solid #00c585;
+  border-radius: 50%;
+  height: 47px;
+  width: 47px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.search-button:hover {
+  background-color: white;
+  color: #00c585;
+  cursor: pointer;
+}
+.location {
+  width: 41%;
+}
+
+.text-field {
+  align-self: center;
+  width: 100%;
+}
+.dates {
+  width: 35%;
+}
+.guests {
+  width: 24%;
+}
+.booking-button .fa-solid {
+  width: 25px;
+  color: black;
+}
+
+.third-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-solid {
+  cursor: pointer;
 }
