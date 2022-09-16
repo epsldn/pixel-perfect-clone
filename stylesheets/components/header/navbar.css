@@ -1,6 +1,7 @@
 header {
   background-color: #f3f2ef;
   position: sticky;
+  z-index: 2;
   top: 0%;
 }
 
