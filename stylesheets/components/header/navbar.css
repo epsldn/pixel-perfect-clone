@@ -5,45 +5,8 @@ header {
   z-index: 2;
 }
 
-.navbar {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  height: 70px;
-}
-
-.navbar svg {
-  height: fit-content;
-  width: 154px;
-}
-
-.navbar__logo {
-  height: 100%;
-  align-items: center;
-  display: flex;
-}
-
 .logo-hipcamp-green_svg__st0 {
   fill: #0f3806;
-}
-
-.navbar__top-right {
-  align-items: center;
-  display: flex;
-  font-size: 18px;
-  line-height: 24px;
-  height: 100%;
-}
-
-.navbar__top-right__links {
-  display: inline-flex;
-  width: 457.6px;
-  height: 100%;
-}
-
-.navbar__top-right__signup {
-  display: inline-flex;
-  height: 100%;
 }
 
 .link-container {
@@ -69,11 +32,41 @@ header {
   box-sizing: border-box;
 }
 
-.signup-button-container {
+.navbar {
   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.navbar svg {
+  height: fit-content;
+  width: 154px;
+}
+
+.navbar__logo {
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.navbar__top-right {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  line-height: 24px;
+  height: 100%;
+}
+
+.navbar__top-right__links {
   display: inline-flex;
-  justify-content: end;
-  width: 100.58px;
+  width: 457.6px;
+  height: 100%;
+}
+
+.navbar__top-right__signup {
+  display: inline-flex;
+  height: 100%;
 }
 
 .signup-button {
@@ -87,6 +80,13 @@ header {
   padding: 5px 16px 5px;
   transition: background-color 0.2s ease, color 0.2s ease;
   height: 50%;
+}
+
+.signup-button-container {
+  align-items: center;
+  display: inline-flex;
+  justify-content: end;
+  width: 100.58px;
 }
 
 .signup-button:hover {
