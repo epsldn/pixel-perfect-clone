@@ -62,8 +62,8 @@
   direction: column;
 }
 
-.booking-button:active {
-  box-shadow: #eae8e4 0px 2px 3px;
+.booking-button:focus-within {
+  box-shadow: #eae8e4 0px 3px 3px;
 }
 
 .button-section-search {
